@@ -1,0 +1,194 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+    color: #333333;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 900px;
+}
+
+/* Typography */
+h1, h2, h3 {
+    font-family: 'Georgia', serif;
+    color: #0056b3; /* Darker accent for headers */
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #007bff;
+}
+
+h1 i {
+    margin-right: 10px;
+}
+
+header p {
+    text-align: center;
+    font-size: 1.1em;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 1.8em;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 10px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 1.4em;
+    color: #007bff;
+    margin-bottom: 15px;
+}
+
+h3 i {
+    margin-right: 8px;
+    color: #007bff;
+}
+
+/* Input Section */
+.input-section textarea {
+    width: calc(100% - 22px); /* Account for padding and border */
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-family: 'Arial', sans-serif;
+    font-size: 1em;
+    margin-bottom: 20px;
+    box-shadow: inset 0 1px 3px rgba(0,0,0,0.05);
+    resize: vertical;
+}
+
+.input-section button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 12px 25px;
+    font-size: 1.1em;
+    font-family: 'Arial', sans-serif;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    display: block;
+    margin: 0 auto;
+}
+
+.input-section button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+.input-section button i {
+    margin-right: 8px;
+}
+
+/* Loading Indicator and Error Messages */
+.loading-indicator, .error-message {
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    font-size: 1.1em;
+}
+
+.loading-indicator {
+    color: #007bff;
+}
+
+.loading-indicator i {
+    margin-right: 10px;
+    font-size: 1.5em;
+}
+
+.error-message {
+    background-color: #ffebee; /* Light red */
+    color: #c62828; /* Dark red */
+    border: 1px solid #ef9a9a;
+}
+
+/* Results Section */
+.results-section {
+    margin-top: 30px;
+}
+
+.result-card {
+    background-color: #f8f9fa; /* Slightly off-white */
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+    border-left: 5px solid #007bff;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.07);
+}
+
+.result-card div {
+    font-size: 1em;
+    color: #333333;
+}
+
+.result-card ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.result-card ul li {
+    background-color: #fff;
+    padding: 10px 15px;
+    margin-bottom: 8px;
+    border-radius: 5px;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.03);
+}
+
+.result-card strong {
+    font-family: 'Georgia', serif;
+    color: #0056b3;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+    font-size: 0.9em;
+    color: #777;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+        margin: 10px;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.6em;
+    }
+
+    .input-section button {
+        width: 100%;
+        padding: 15px;
+    }
+}

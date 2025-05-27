@@ -1,0 +1,19 @@
+{
+  "name": "startup-idea-analyzer-frontend",
+  "version": "0.1.0",
+  "description": "Frontend for the Startup Idea Analyzer",
+  "main": "static/js/script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "startup",
+    "idea",
+    "analyzer",
+    "html",
+    "css",
+    "javascript"
+  ],
+  "author": "",
+  "license": "ISC"
+}
